@@ -79,6 +79,25 @@
 			path = RiveAssets;
 			sourceTree = "<group>";
 		};
+		C465A47B285BA83300E437EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4322D9F28579DDF00BFBD03 /* OnboardingView.swift */,
+				C4DFA888285A6514009DCBB3 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C465A47C285BA84900E437EC /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFA88A285A6916009DCBB3 /* CustomTextField.swift */,
+				C4322DA82857C8E200BFBD03 /* CustomFont.swift */,
+				C4DFA88C285A6C0A009DCBB3 /* Extensions.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		C47AE9512857878000F77E17 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +120,8 @@
 				C4322DA72857BF1700BFBD03 /* Info.plist */,
 				C47AE95D2857878000F77E17 /* AnimatedApp.swift */,
 				C47AE95F2857878000F77E17 /* ContentView.swift */,
-				C4322D9F28579DDF00BFBD03 /* OnboardingView.swift */,
-				C4DFA888285A6514009DCBB3 /* SignInView.swift */,
-				C4DFA88A285A6916009DCBB3 /* CustomTextField.swift */,
-				C4322DA82857C8E200BFBD03 /* CustomFont.swift */,
-				C4DFA88C285A6C0A009DCBB3 /* Extensions.swift */,
+				C465A47B285BA83300E437EC /* Views */,
+				C465A47C285BA84900E437EC /* Styles */,
 				C47AE9612857878200F77E17 /* Assets.xcassets */,
 				C4322DA32857BED500BFBD03 /* Inter-Regular.ttf */,
 				C4322DA22857BED400BFBD03 /* Inter-SemiBold.ttf */,
