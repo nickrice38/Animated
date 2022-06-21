@@ -20,6 +20,13 @@
 		C4322DA52857BED600BFBD03 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4322DA22857BED400BFBD03 /* Inter-SemiBold.ttf */; };
 		C4322DA62857BED600BFBD03 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4322DA32857BED500BFBD03 /* Inter-Regular.ttf */; };
 		C4322DA92857C8E200BFBD03 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4322DA82857C8E200BFBD03 /* CustomFont.swift */; };
+		C45372F3286232D0007C4BA0 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372F1286232D0007C4BA0 /* CourseSection.swift */; };
+		C45372F4286232D0007C4BA0 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372F2286232D0007C4BA0 /* Course.swift */; };
+		C45372F6286232F4007C4BA0 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372F5286232F4007C4BA0 /* VCard.swift */; };
+		C45372F8286235B0007C4BA0 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372F7286235B0007C4BA0 /* HCard.swift */; };
+		C45372FA28623668007C4BA0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372F928623668007C4BA0 /* HomeView.swift */; };
+		C45372FC286238C3007C4BA0 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372FB286238C3007C4BA0 /* SideMenu.swift */; };
+		C45372FE28623D78007C4BA0 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45372FD28623D78007C4BA0 /* MenuRow.swift */; };
 		C473D8E52860DEB200D9FF68 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473D8E42860DEB200D9FF68 /* TabBar.swift */; };
 		C47AE95E2857878000F77E17 /* AnimatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AE95D2857878000F77E17 /* AnimatedApp.swift */; };
 		C47AE9602857878000F77E17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AE95F2857878000F77E17 /* ContentView.swift */; };
@@ -44,6 +51,13 @@
 		C4322DA32857BED500BFBD03 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		C4322DA72857BF1700BFBD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C4322DA82857C8E200BFBD03 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		C45372F1286232D0007C4BA0 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		C45372F2286232D0007C4BA0 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C45372F5286232F4007C4BA0 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		C45372F7286235B0007C4BA0 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		C45372F928623668007C4BA0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C45372FB286238C3007C4BA0 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C45372FD28623D78007C4BA0 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		C473D8E42860DEB200D9FF68 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		C47AE95A2857878000F77E17 /* Animated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47AE95D2857878000F77E17 /* AnimatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedApp.swift; sourceTree = "<group>"; };
@@ -79,6 +93,15 @@
 				C4322D9428578F5C00BFBD03 /* icons.riv */,
 			);
 			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		C45372F0286232D0007C4BA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45372F1286232D0007C4BA0 /* CourseSection.swift */,
+				C45372F2286232D0007C4BA0 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C465A47B285BA83300E437EC /* Views */ = {
@@ -122,9 +145,15 @@
 				C4322DA72857BF1700BFBD03 /* Info.plist */,
 				C47AE95D2857878000F77E17 /* AnimatedApp.swift */,
 				C47AE95F2857878000F77E17 /* ContentView.swift */,
+				C45372FB286238C3007C4BA0 /* SideMenu.swift */,
+				C45372FD28623D78007C4BA0 /* MenuRow.swift */,
 				C473D8E42860DEB200D9FF68 /* TabBar.swift */,
+				C45372F928623668007C4BA0 /* HomeView.swift */,
+				C45372F5286232F4007C4BA0 /* VCard.swift */,
+				C45372F7286235B0007C4BA0 /* HCard.swift */,
 				C465A47B285BA83300E437EC /* Views */,
 				C465A47C285BA84900E437EC /* Styles */,
+				C45372F0286232D0007C4BA0 /* Model */,
 				C47AE9612857878200F77E17 /* Assets.xcassets */,
 				C4322DA32857BED500BFBD03 /* Inter-Regular.ttf */,
 				C4322DA22857BED400BFBD03 /* Inter-SemiBold.ttf */,
@@ -229,14 +258,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45372F8286235B0007C4BA0 /* HCard.swift in Sources */,
 				C4322DA028579DDF00BFBD03 /* OnboardingView.swift in Sources */,
+				C45372FA28623668007C4BA0 /* HomeView.swift in Sources */,
+				C45372FC286238C3007C4BA0 /* SideMenu.swift in Sources */,
 				C4322DA92857C8E200BFBD03 /* CustomFont.swift in Sources */,
+				C45372F4286232D0007C4BA0 /* Course.swift in Sources */,
 				C4DFA88B285A6916009DCBB3 /* CustomTextField.swift in Sources */,
 				C473D8E52860DEB200D9FF68 /* TabBar.swift in Sources */,
+				C45372F6286232F4007C4BA0 /* VCard.swift in Sources */,
 				C47AE9602857878000F77E17 /* ContentView.swift in Sources */,
 				C47AE95E2857878000F77E17 /* AnimatedApp.swift in Sources */,
 				C4DFA889285A6514009DCBB3 /* SignInView.swift in Sources */,
+				C45372F3286232D0007C4BA0 /* CourseSection.swift in Sources */,
 				C4DFA88D285A6C0A009DCBB3 /* Extensions.swift in Sources */,
+				C45372FE28623D78007C4BA0 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
